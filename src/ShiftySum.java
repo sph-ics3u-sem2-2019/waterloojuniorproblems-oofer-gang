@@ -23,6 +23,12 @@ public class ShiftySum {
 		 * 14) 2503,1
 		 * 15) 7868,2
 		 */
+		
+		System.out.println("Give me the first number");
+		int num1=in.nextInt();
+		System.out.println("Give me the second number");
+		int num2=in.nextInt();
+		
 	}
-
+ 
 }
