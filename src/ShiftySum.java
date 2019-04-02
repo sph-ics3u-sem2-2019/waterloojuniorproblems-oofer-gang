@@ -27,7 +27,7 @@ public class ShiftySum {
 		 * after everytome you multiply, add that products to the total
 		 */
 		
-		System.out.println("What is first number");
+		System.out.println("What is the first number");
 		int num1=in.nextInt();
 		System.out.println("What is the second number");
 		int num2=in.nextInt();
