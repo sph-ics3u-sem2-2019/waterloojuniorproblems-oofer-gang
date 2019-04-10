@@ -23,6 +23,67 @@ public class ShiftySum {
 		 * 14) 2503,1
 		 * 15) 7868,2
 		 */
-	}
+		
+		System.out.println("What is your number?");
+		int N=in.nextInt();
+		System.out.println("How many shifts?");
+		int k=in.nextInt();
+		int A=0;
+		int B=0;
+		int C=0;
+		int D=0;
+		int E=0;
+		int ans=0;
+		int ans1=0;
+		int ans2=0;
+		int ans3=0;
+		int ans4=0;
+		int total=0;
+		
 
+if (k>0) {
+	A=10^k;
+	ans=N*A;
+	k=k-1;
+	
 }
+
+if (k>0) {
+	B=10^k;
+	ans1=N*B;
+	k=k-1;
+}
+
+if (k>0) {
+	C=10^k;
+	ans2=N*C;
+	k=k-1;
+}
+
+
+if (k>0) {
+	D=10^k;
+	ans3=N*D;
+	k=k-1;
+}
+
+
+if (k>0) {
+	E=10^k;
+	ans4=N*E;
+	k=k-1;
+}
+
+total=ans+ans1+ans2+ans3+ans4; 
+
+	
+
+		System.out.println("The total is"+total);
+	}}
+
+	
+
+
+
+
+
