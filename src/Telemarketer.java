@@ -3,7 +3,11 @@ public class Telemarketer {
 
 	public static void main(String[] args) {
 		Scanner in=new Scanner(System.in);
+<<<<<<< HEAD
 			// TODO Auto-generated method stub
+=======
+		// TODO Auto-generated method stub
+>>>>>>> f663bde7550bd2a33778b3169df1cdde7af21c0f
 		/*
 		 * Follow the instructions in JuniorProblem.pdf
 		 * Use the following values to test your program and record your results
@@ -22,8 +26,35 @@ public class Telemarketer {
 		 * 13) 1,0,2,6 Not
 		 */
 		
+<<<<<<< HEAD
 		
 	
+=======
+		System.out.println("What is the first number");
+		int num1=in.nextInt();
+		System.out.println("What is the second number");
+		int num2=in.nextInt();
+		System.out.println("What is the third number");
+		int num3=in.nextInt();
+		System.out.println("What is the fourth number");
+		int num4=in.nextInt();
+		
+		if (num1==8||num1==9) {
+			if (num4==8||num4==9) {
+				if (num2==num3) {
+					System.out.println("ignore");
+				}else {
+					System.out.println("answer");
+				}
+			}else {
+				System.out.println("answer");
+			}
+		}else {
+			System.out.println("answer");
+		}
+		
+	}
+>>>>>>> f663bde7550bd2a33778b3169df1cdde7af21c0f
 
 		System.out.println("What is the fourth phone digit?");
 		int num1=in.nextInt();

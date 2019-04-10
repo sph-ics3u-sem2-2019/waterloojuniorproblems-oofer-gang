@@ -23,6 +23,7 @@ public class ShiftySum {
 		 * 14) 2503,1
 		 * 15) 7868,2
 		 */
+<<<<<<< HEAD
 		
 		System.out.println("What is your number?");
 		int N=in.nextInt();
@@ -46,6 +47,33 @@ if (k>0) {
 	ans=N*A;
 	k=k-1;
 	
+=======
+		/*take the first number and multuply it by ten for as many times as the second number tells you to
+		 * after everytome you multiply, add that products to the total
+		 */
+		
+		System.out.println("What is the first number");
+		int num1=in.nextInt();
+		System.out.println("What is the second number");
+		int num2=in.nextInt();
+	
+		int ans=0;
+		int total=0;
+		int initialnum=num1;
+		
+		while (num2>0) {
+			ans=num1*10;
+			total=total+ans;
+			num2=num2-1;
+			
+			num1=ans;
+			
+		}
+		total=total+initialnum;
+		System.out.println("The answer is "+total);
+	}
+ 
+>>>>>>> f663bde7550bd2a33778b3169df1cdde7af21c0f
 }
 
 if (k>0) {
